@@ -5,12 +5,13 @@
     <link rel="stylesheet" href="styles.css" > 
   </head>
   <body>
-    <section class="player-1-section">
+    <section class="player-section">
         <h2>Human</h2>
         <h3>logo</h3>
         <h3>Wins: 0</h3>
+        <button id="changeGame" hidden>Change Game?</button>
     </section>
-    <section class="game-section"">
+    <section id="player1" class="game-section"">
         <h1>Rock Paper Scissors</h1>
         <h2>Choose your game!</h2>
         <box id="vanilla" class="game-choice">
@@ -27,8 +28,11 @@
             <p>lizard > paper & alien</p>
             <p>alien > scissors & rock</p>
         </box>
+        <box class="choices-container" hidden>
+          
+        </box>
     </section>
-    <section class="player-2-section"">
+    <section id="player2" class="player-section"">
         <h2>Computer</h2>
         <h3>logo</h3>
         <h3>Wins: 0</h3>

@@ -5,4 +5,13 @@
 
 body {
     background-color: seagreen;
+    display: flex;
+}
+
+.game-section{
+
+}
+
+.hidden {
+
 }
