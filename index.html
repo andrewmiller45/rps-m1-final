@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--   IF you are bringing in any external fonts, put the links here   -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" > 
-    <!-- Add a relative filepath to your css file at the href attribute -->
   </head>
   <body>
-    <section class="player-1-section"">
+    <section class="player-1-section">
         <h2>Human</h2>
         <h3>logo</h3>
+        <h3>Wins: 0</h3>
     </section>
     <section class="game-section"">
         <h1>Rock Paper Scissors</h1>
         <h2>Choose your game!</h2>
         <box id="vanilla" class="game-choice">
-            <p>Classic</p>
+            <h3>Classic</h3>
+            <p>rock > scissors</p>
+            <p>scissors > paper</p>
+            <p>paper > rock</p>
         </box>
-        <box id="spicy" class="game-choice">
-            
-            <p>Hard Mode</p>
+        <box id="spicy" class="game-choice">            
+            <h3>Hard Mode</h3>
+            <p>rock > scissors & lizard</p>
+            <p>scissors > paper & lizard</p>
+            <p>paper > rock & alien</p>
+            <p>lizard > paper & alien</p>
+            <p>alien > scissors & rock</p>
         </box>
     </section>
     <section class="player-2-section"">
         <h2>Computer</h2>
         <h3>logo</h3>
+        <h3>Wins: 0</h3>
     </section>
-
     <script src="game.js"></script>
     <script src="player.js"></script> 
     <script src="main.js"></script> 
-    <!-- Add a relative filepath to your js file at the src attribute -->
   </body>
 </html>
