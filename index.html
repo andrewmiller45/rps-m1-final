@@ -5,13 +5,13 @@
     <link rel="stylesheet" href="styles.css" > 
   </head>
   <body>
-    <section class="player-section">
+    <section id="player1" class="player-section">
         <h2>Human</h2>
         <h3>logo</h3>
         <h3>Wins: 0</h3>
         <button id="changeGame" hidden>Change Game?</button>
     </section>
-    <section id="player1" class="game-section">
+    <section id="game" class="game-container">
         <h1>Rock Paper Scissors</h1>
         <h2>Choose your game!</h2>
         <box id="vanilla" class="game-choice">
@@ -36,13 +36,13 @@
           <img class="fighter" src="./assets/rock.png">
         </box>
     </section>
-    <section id="player2" class="player-section"">
+    <section id="player2" class="player-section">
         <h2>Computer</h2>
         <h3>logo</h3>
         <h3>Wins: 0</h3>
     </section>
-    <script src="game.js"></script>
     <script src="player.js"></script> 
+    <script src="game.js"></script>
     <script src="main.js"></script> 
   </body>
 </html>

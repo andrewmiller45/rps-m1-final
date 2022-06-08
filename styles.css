@@ -18,9 +18,14 @@ body {
     opacity: 80%; 
 }
 
-.game-section{
+.game-container{
     background-color: slategray;
     opacity: 80%;
+}
+
+.fighter{
+    height: 20px;
+    width: 20px;
 }
 
 .hidden {
