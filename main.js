@@ -1,4 +1,4 @@
-
+var newGame = Game(playerOne, playerTwo, classic)
 
 
 
@@ -23,5 +23,9 @@ function increaseWinCount(){
 }
 
 function resetGame(){
-    
+
+}
+
+function changeGameType(){
+
 }
