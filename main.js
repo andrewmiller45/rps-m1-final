@@ -13,3 +13,15 @@ function show(element){
 function checkWinStates(){
 
 }
+
+function checkForDraw(){
+
+}
+
+function increaseWinCount(){
+
+}
+
+function resetGame(){
+    
+}
