@@ -4,6 +4,8 @@ class Game {
         this.playerOne = new Player("human", "./assets/human.png")
         this.playerTwo = new Player("computer", "./assets/robot.png")
         this.gameMode
+        this.playerOneChoice
+        this.playerTwoChoice 
         this.winStates = {
             rock: ['scissors', 'lizard'],
             paper: ['rock', 'alien'],
@@ -13,3 +15,7 @@ class Game {
         }
     }
 }
+
+//if [choice],  for loop through this.winstates[choice]
+// if the other choice equals any of the items in that array, you win
+
