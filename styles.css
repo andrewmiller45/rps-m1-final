@@ -7,8 +7,8 @@
 
 body {
     background-color: cornflowerblue;
-    width: 800px;
-    height: 800px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
 	justify-content: space-between;
 }
@@ -25,6 +25,10 @@ body {
     opacity: 80%;
 }
 
+.game-choice{
+    background-color: aliceblue;
+}
+
 .fighter{
     height: 20px;
     width: 20px;
@@ -34,7 +38,7 @@ body {
 
 }
 
-.fighter {
+#fighter {
     height: 30px;
     width: 30px;
 }
