@@ -1,5 +1,11 @@
 var newGame = new Game()
 
+var vanillaButton = document.getElementById('vanilla')
+var spicyButton = document.getElementById('spicy')
+var changeGameButton = document.getElementById('changeGame')
+var humanWins = document.getElementById('humanWins')
+var cpuWins = document.getElementById('cpuWins')
+
 
 
 function hide(element){
