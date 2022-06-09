@@ -11,13 +11,14 @@
           <img class="player" src="./assets/human.png" alt="human">
         </h3>
         <h3 id="humanWins">Wins: 0</h3>
-        <button id="changeGame">Change Game?</button>
+        <button class="hidden" id="changeGame">Change Game?</button>
     </section>
     <section id="game" class="game-container">
         <h1>Rock Paper Scissors</h1>
-        <h2>Choose your game!</h2>
-        <h2>Choose your fighter!</h2>
-        <div class="choices-styling" >
+        <h2 id="gameChoicePrompt" class="">Choose your game!</h2>
+        <h2 class="hidden">Choose your fighter!</h2>
+        <h3 id="resultMsg" class="hidden">Result</h3>
+        <div class="choices-styling">
           <article id="vanilla" class="game-choice">
               <h3>Classic</h3>
               <p>rock > scissors</p>
@@ -34,11 +35,11 @@
           </article>
         </div>
         <article class="choices-container">
-          <img class="fighter" src="./assets/lines-alien.png" alt="alien">
-          <img class="fighter" src="./assets/lines-paper.png" alt="paper">
-          <img class="fighter" src="./assets/lines-scissors.png" alt="scissors">
-          <img class="fighter" src="./assets/lizard.png" alt="lizard">
-          <img class="fighter" src="./assets/rock.png" alt="rock">
+        <!-- <img class="fighter" src="./assets/lines-alien.png" alt="alien">
+        <img class="fighter" src="./assets/lines-paper.png" alt="paper">
+        <img class="fighter" src="./assets/lines-scissors.png" alt="scissors">
+        <img class="fighter" src="./assets/lizard.png" alt="lizard">
+        <img class="fighter" src="./assets/rock.png" alt="rock"> -->
         </article>
     </section>
     <section id="player2" class="player-section">
