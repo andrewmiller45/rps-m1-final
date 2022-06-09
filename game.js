@@ -14,21 +14,6 @@ class Game {
             alien: ['scissors', 'rock']
         }
     }
-    
-    checkWinStates (playerOneChoice, gameMode){
-        var cpuChoice = newGame.playerTwo.takeTurn(gameMode)
-            if (newGame.winStates[cpuChoice].includes(playerOneChoice)) {
-                newGame.playerTwo.wins ++
-                return console.log(cpuChoice, 'computer wins');            
-            }
-            else if (newGame.winStates[playerOneChoice].includes(cpuChoice)) {
-                newGame.playerOne.wins ++
-                return console.log(cpuChoice, 'player wins');
-            }
-            else 
-                return console.log(cpuChoice, 'draw');
-            }
-    }
 
 //if [choice],  for loop through this.winstates[choice]
 // if the other choice equals any of the items in that array, you win
