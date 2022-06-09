@@ -85,6 +85,6 @@ function updateWinsView(){
 }
 
 function displayResult(){
-    resultView.innerText = `${newGame.winMsg}`
+    resultView.innerText = `${newGame.winMsg}`   
     show(resultView)
 }
