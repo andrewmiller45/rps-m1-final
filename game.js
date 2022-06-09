@@ -3,9 +3,8 @@ class Game {
         this.id = Date.now()
         this.playerOne = new Player("human", "./assets/human.png")
         this.playerTwo = new Player("computer", "./assets/robot.png")
-        this.gameMode
-        this.playerOneChoice
-        this.playerTwoChoice 
+        this.gameMode 
+        this.playerOneChoice 
         this.winStates = {
             rock: ['scissors', 'lizard'],
             paper: ['rock', 'alien'],
@@ -13,20 +12,18 @@ class Game {
             lizard: ['paper','alien'], 
             alien: ['scissors', 'rock']
         }
-
-        checkWinStates(playerOneChoice, gameChoice){
-            var cpuChoice = newGame.playerTwo.takeTurn(gameMode)
-            if (newGame.winStates[cpuChoice].includes(playerOneChoice)) {
-                newGame.playerTwo.wins ++
+    }
+        checkWinStates(playerOneChoice, gameMode){
+            var cpuChoice = this.playerTwo.takeTurn(gameMode)
+            if (this.winStates[cpuChoice].includes(this.playerOneChoice)) {
+                this.playerTwo.increaseWins()
                 return console.log(cpuChoice, 'computer wins')
             }
-            else if(newGame.winStates[playerOneChoice].includes(cpuChoice)){
-                newGame.playerOne.wins ++
+            else if(this.winStates[playerOneChoice].includes(cpuChoice)){
+                this.playerOne.increaseWins()
                 return console.log(cpuChoice, 'player wins')
             }
             else 
                 return console.log(cpuChoice, 'draw')
             }
         }
-
-}

@@ -15,4 +15,8 @@ class Player {
             return fighters[Math.floor(Math.random() * fighters.length)];
         }
     }
+
+    increaseWins(){
+        this.wins++
+    }
 }

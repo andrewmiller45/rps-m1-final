@@ -7,7 +7,6 @@ var humanWins = document.getElementById('humanWins')
 var cpuWins = document.getElementById('cpuWins')
 
 
-
 function hide(element){
     element.classList.add('.hidden')
 }
