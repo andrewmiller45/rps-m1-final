@@ -3,42 +3,99 @@
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
+    color: #16C79A;
 }
 
 body {
-    background-color: cornflowerblue;
+    background-color: #E7D9EA;
+    opacity: 85%;
     width: 100vw;
     height: 100vh;
     display: flex;
 	justify-content: space-between;
 }
 
+h1{
+    font-size: 60px;
+}
 
+h2{
+    font-size: 45px;
+    margin: 12px;
+}
+
+p{
+    font-size: 21px;
+}
+
+button{
+    background-color: #E7D9EA;
+    color: black;
+    margin: 25px;
+    height: 85px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 25px;
+    font-size: 21px;
+}
 
 .player-section{
-    background-color: darkslateblue;
+    width: 500px;
+    background-color: #11698E;
     opacity: 80%; 
+    text-align: center;
 }
 
 .game-container{
-    background-color: slategray;
+    width: 900px;
+    text-align: center;
+    background-color: #19456B;
     opacity: 80%;
+
 }
 
 .game-choice{
-    background-color: aliceblue;
+    background-color: #11698E;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 8px;
+    width: 250px;
+    font-size: 16px;
 }
 
 .fighter{
-    height: 20px;
-    width: 20px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 10px;
 }
 
+.choices-styling{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player {
+    height: 150px;
+    width: 150px;
+}
 .hidden {
 
 }
 
+#spicy, #vanilla{
+    margin: 25px
+}
+
 #fighter {
     height: 30px;
-    width: 30px;
+    width: 30px; 
 }
+
+#humanWins, #cpuWins {
+    font-size: 36px;
+}
+
