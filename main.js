@@ -1,5 +1,11 @@
 var newGame = new Game()
 
+var vanillaButton = document.getElementById('vanilla')
+var spicyButton = document.getElementById('spicy')
+var changeGameButton = document.getElementById('changeGame')
+var humanWins = document.getElementById('humanWins')
+var cpuWins = document.getElementById('cpuWins')
+
 
 
 function hide(element){
@@ -17,22 +23,6 @@ function selectGamemode (e){
 
 function chooseFighter(e){
     //newGame.playerOneChoice = e.target.id
-}
-
-function checkWinStates (playerOneChoice, gameMode){
-    var cpuChoice = newGame.playerTwo.takeTurn(gameMode)
-    for (let i = 0; i < newGame.winStates[cpuChoice].length; i++) {
-        if (newGame.winStates[cpuChoice][i].includes(playerOneChoice)) {
-            newGame.playerTwo.wins ++
-            return console.log(cpuChoice, 'computer wins');            
-        }
-        else if (newGame.winStates[playerOneChoice][i].includes(cpuChoice)) {
-            newGame.playerOne.wins ++
-            return console.log(cpuChoice, 'player wins');
-        }
-        else 
-            return console.log(cpuChoice, 'draw');
-        }
 }
 
 function resetGame(){
