@@ -8,41 +8,43 @@
     <section id="player1" class="player-section">
         <h2>Human</h2>
         <h3>
-          <img class="fighter" src="./assets/human.png" alt="human">
+          <img class="player" src="./assets/human.png" alt="human">
         </h3>
         <h3 id="humanWins">Wins: 0</h3>
-        <button id="changeGame" hidden>Change Game?</button>
+        <button id="changeGame">Change Game?</button>
     </section>
     <section id="game" class="game-container">
         <h1>Rock Paper Scissors</h1>
         <h2>Choose your game!</h2>
-        <h2 hidden>Choose your fighter!</h2>
-        <box id="vanilla" class="game-choice">
-            <h3>Classic</h3>
-            <p>rock > scissors</p>
-            <p>scissors > paper</p>
-            <p>paper > rock</p>
-        </box>
-        <box id="spicy" class="game-choice">            
-            <h3>Hard Mode</h3>
-            <p>rock > scissors & lizard</p>
-            <p>scissors > paper & lizard</p>
-            <p>paper > rock & alien</p>
-            <p>lizard > paper & alien</p>
-            <p>alien > scissors & rock</p>
-        </box>
-        <box class="choices-container" hidden>
+        <h2>Choose your fighter!</h2>
+        <div class="choices-styling" >
+          <article id="vanilla" class="game-choice">
+              <h3>Classic</h3>
+              <p>rock > scissors</p>
+              <p>scissors > paper</p>
+              <p>paper > rock</p>
+          </article>
+          <article id="spicy" class="game-choice">            
+              <h3>Hard Mode</h3>
+              <p>rock > scissors & lizard</p>
+              <p>scissors > paper & lizard</p>
+              <p>paper > rock & alien</p>
+              <p>lizard > paper & alien</p>
+              <p>alien > scissors & rock</p>
+          </article>
+        </div>
+        <article class="choices-container">
           <img class="fighter" src="./assets/lines-alien.png" alt="alien">
           <img class="fighter" src="./assets/lines-paper.png" alt="paper">
           <img class="fighter" src="./assets/lines-scissors.png" alt="scissors">
           <img class="fighter" src="./assets/lizard.png" alt="lizard">
           <img class="fighter" src="./assets/rock.png" alt="rock">
-        </box>
+        </article>
     </section>
     <section id="player2" class="player-section">
         <h2>Computer</h2>
         <h3>
-          <img class="fighter" src="./assets/robot.png" alt="robot">
+          <img class="player" src="./assets/robot.png" alt="robot">
         </h3>
         <h3 id="cpuWins">Wins: 0</h3>
     </section>
