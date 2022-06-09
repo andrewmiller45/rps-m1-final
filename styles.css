@@ -40,14 +40,14 @@ button{
 }
 
 .player-section{
-    width: 500px;
+    width: 25vw;
     background-color: #11698E;
     opacity: 80%; 
     text-align: center;
 }
 
 .game-container{
-    width: 900px;
+    width: 75vw;
     text-align: center;
     background-color: #19456B;
     opacity: 80%;
@@ -57,6 +57,7 @@ button{
 .game-choice{
     background-color: #11698E;
     border: 5px solid black;
+    color: #E7D9EA ;
     border-radius: 15px;
     padding: 8px;
     width: 250px;
@@ -66,7 +67,7 @@ button{
 .fighter{
     height: 100px;
     width: 100px;
-    border: 5px solid black;
+    border: 5px solid #16C79A;
     border-radius: 15px;
     padding: 10px;
     margin-top: 100px;
