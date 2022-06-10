@@ -94,7 +94,6 @@ function displayResult(){
 }
 
 function displayPlayerChoices(){
-    battleView.innerHTML = ""
     battleView.innerHTML = `
         <img class="player" src="${newGame.playerOne.token}">
         <img class="player" src="${newGame.playerTwo.token}">
