@@ -9,6 +9,8 @@ var gameChoiceContainer = document.querySelector('.choices-styling')
 var fighterIconsView = document.querySelector('.choices-container')
 var resultView = document.getElementById('resultMsg')
 var choiceHeader = document.getElementById('gameChoicePrompt')
+var showdown = document.querySelector('.showdown')
+var battleView = document.getElementById('battleView')
 
 gameChoiceContainer.addEventListener('click', selectGamemode)
 changeGameButton.addEventListener('click', returnToGameSelect)
@@ -30,9 +32,9 @@ function selectGamemode (e){
         newGame.gameMode = 'spicy'
         fighterIconsView.innerHTML = 
         `<article class="choices-container">
-          <img class="fighter" id="alien" src="./assets/lines-alien.png" alt="alien image">
-          <img class="fighter" id="paper" src="./assets/lines-paper.png" alt="paper image">
-          <img class="fighter" id="scissors"  src="./assets/lines-scissors.png" alt="scissors image">
+          <img class="fighter" id="alien" src="./assets/alien.png" alt="alien image">
+          <img class="fighter" id="paper" src="./assets/paper.png" alt="paper image">
+          <img class="fighter" id="scissors"  src="./assets/scissors.png" alt="scissors image">
           <img class="fighter" id="lizard"  src="./assets/lizard.png" alt="lizard image">
           <img class="fighter" id="rock"  src="./assets/rock.png" alt="rock image">
         </article>`
@@ -45,8 +47,8 @@ function selectGamemode (e){
         newGame.gameMode = 'vanilla'
         fighterIconsView.innerHTML = 
             `<article class="choices-container">
-            <img class="fighter" id="paper"  src="./assets/lines-paper.png" alt="paper image">
-            <img class="fighter" id="scissors"  src="./assets/lines-scissors.png" alt="scissors image">
+            <img class="fighter" id="paper"  src="./assets/paper.png" alt="paper image">
+            <img class="fighter" id="scissors"  src="./assets/scissors.png" alt="scissors image">
             <img class="fighter" id="rock"  src="./assets/rock.png" alt="rock image">
             </article>`
     }
@@ -87,4 +89,8 @@ function updateWinsView(){
 function displayResult(){
     resultView.innerText = `${newGame.winMsg}`   
     show(resultView)
+}
+
+function displayPlayerChoices(){
+    
 }

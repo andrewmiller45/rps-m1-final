@@ -17,6 +17,7 @@ body {
 
 h1{
     font-size: 60px;
+    color: #E7D9EA;
 }
 
 h2{
@@ -44,6 +45,7 @@ button{
     background-color: #11698E;
     opacity: 80%; 
     text-align: center;
+    border: 5px solid #E7D9EA;
 }
 
 .game-container{
@@ -51,7 +53,7 @@ button{
     text-align: center;
     background-color: #19456B;
     opacity: 80%;
-
+    border: 5px solid #16C79A;
 }
 
 .game-choice{
@@ -65,11 +67,8 @@ button{
 }
 
 .fighter{
-    height: 100px;
-    width: 100px;
-    border: 5px solid #16C79A;
-    border-radius: 15px;
-    padding: 10px;
+    height: 10rem;
+    width: 10rem;
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;

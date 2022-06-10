@@ -5,6 +5,7 @@ class Game {
         this.playerTwo = new Player("computer", "./assets/robot.png")
         this.gameMode 
         this.playerOneChoice 
+        this.playerTwoChoice
         this.winMsg
         this.winStates = {
             rock: ['scissors', 'lizard'],
@@ -15,19 +16,19 @@ class Game {
         }
     }
         checkWinStates(playerOneChoice, gameMode){
-            var cpuChoice = this.playerTwo.takeTurn(gameMode)
-            if (this.winStates[cpuChoice].includes(this.playerOneChoice)) {
+            this.playerTwoChoice = this.playerTwo.takeTurn(gameMode)
+            if (this.winStates[this.playerTwoChoice].includes(this.playerOneChoice)) {
                 this.playerTwo.increaseWins()
                 this.winMsg = `Computer Wins!`
-                return console.log(cpuChoice, 'computer wins')
+                return console.log(this.playerTwoChoice, 'computer wins')
             }
-            else if(this.winStates[playerOneChoice].includes(cpuChoice)){
+            else if(this.winStates[playerOneChoice].includes(this.playerTwoChoice)){
                 this.playerOne.increaseWins()
                 this.winMsg = `Nice!  You win!`
-                return console.log(cpuChoice, 'player wins')
+                return console.log(this.playerTwoChoice, 'player wins')
             }
             else 
                 this.winMsg = `It's a draw!`
-                return console.log(cpuChoice, 'draw')
+                return console.log(this.playerTwoChoice, 'draw')
             }
         }
