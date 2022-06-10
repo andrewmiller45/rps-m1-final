@@ -78,6 +78,7 @@ function resetGame(){
     newGame.playerOneChoice = ""
     newGame.playerTwoChoice = ""
     battleView.innerHTML = ""
+    changeGameButton.disabled = false
     hide(resultView)
     show(fighterIconsView)
     show(actionHeader)
@@ -94,6 +95,7 @@ function updateWinsView(){
 }
 
 function displayResult(){
+    changeGameButton.disabled = true
     resultView.innerText = `${newGame.winMsg}`   
     show(resultView)
     hide(actionHeader)

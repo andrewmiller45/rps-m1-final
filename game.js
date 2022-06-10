@@ -24,7 +24,7 @@ class Game {
             }
             else if(this.winStates[playerOneChoice].includes(this.playerTwoChoice)){
                 this.playerOne.increaseWins()
-                this.winMsg = `Nice!  You win!`
+                this.winMsg = `Nice! You win!`
                 return console.log(this.playerTwoChoice, 'player wins')
             }
             else 
