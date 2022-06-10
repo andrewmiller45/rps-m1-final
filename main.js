@@ -66,12 +66,14 @@ function chooseFighter(e){
     runGame()
     updateWinsView()
     hide(fighterIconsView)
-    setTimeout(resetGame, 2000)
+    displayPlayerChoices()
+    setTimeout(resetGame, 3000)
 }
 
 function resetGame(){
     newGame.playerOneChoice = ""
     newGame.playerTwoChoice = ""
+    battleView.innerHTML = ""
     hide(resultView)
     show(fighterIconsView)
 }
@@ -92,5 +94,11 @@ function displayResult(){
 }
 
 function displayPlayerChoices(){
-    
+    battleView.innerHTML = ""
+    battleView.innerHTML = `
+        <img class="player" src="${newGame.playerOne.token}">
+        <img class="player" src="${newGame.playerTwo.token}">
+        <img class="fighter" src="./assets/${newGame.playerOneChoice}.png">
+        <img class="fighter" src="./assets/${newGame.playerTwoChoice}.png">
+        `
 }
