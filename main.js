@@ -32,7 +32,7 @@ function selectGamemode (e){
         show(changeGameButton)
         hide(choiceHeader)
         newGame.gameMode = 'spicy'
-        fighterIconsView.innerHTML = 
+           fighterIconsView.innerHTML = 
             `<article class="choices-container">
             <img class="fighter" id="alien" src="./assets/alien.png" alt="alien image">
             <img class="fighter" id="paper" src="./assets/paper.png" alt="paper image">
