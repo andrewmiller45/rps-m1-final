@@ -23,13 +23,16 @@
 ## Illustrations
   
 ## Features
-- 
+- Choose your game mode between vanilla or spicy mode.
+- See the computer's choice in-game.
+- Keeps track of the total wins.
+- You have the ability to change the game mode in the middle of your session.
 
 ## Deployed Page
 Visit my published RPS game! [here](https://andrewmiller45.github.io/rps-m1-final/)
 
 ## Possible Future Extensions
-  - 
+  - It would be cool to build some AI or game theory type logic that does not randomize the computer's choice and instead looks to make exploits based on user inputs.
 
 ## Set Up
 1. Fork this repo
@@ -37,10 +40,10 @@ Visit my published RPS game! [here](https://andrewmiller45.github.io/rps-m1-fina
 3. View the project in the browser by running open index.html in your terminal.
 ## Sources
   - [MDN](http://developer.mozilla.org/en-US/)
-  -[JavaTPoint](https://www.javatpoint.com/how-to-check-a-radio-button-using-javascript)
-  -[YouTube](https://www.youtube.com/)
+  - [JavaTPoint](https://www.javatpoint.com/how-to-check-a-radio-button-using-javascript)
+  - [YouTube](https://www.youtube.com/)
   - [W3Schools](https://www.w3schools.com/)
 ## Contributors
   - [Andrew Miller](https://github.com/andrewmiller45)
 ## Project Specs
-  - The project spec & rubric can be found [here]()
+  - The project spec & rubric can be found [here](https://frontend.turing.edu/projects/module-1/rock-paper-scissors-solo.html)
