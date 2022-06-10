@@ -80,6 +80,7 @@ function resetGame(){
     battleView.innerHTML = ""
     hide(resultView)
     show(fighterIconsView)
+    show(actionHeader)
 }
 
 function runGame(){
@@ -95,6 +96,7 @@ function updateWinsView(){
 function displayResult(){
     resultView.innerText = `${newGame.winMsg}`   
     show(resultView)
+    hide(actionHeader)
 }
 
 function displayPlayerChoices(){
