@@ -33,13 +33,13 @@ function selectGamemode (e){
         hide(choiceHeader)
         newGame.gameMode = 'spicy'
         fighterIconsView.innerHTML = 
-        `<article class="choices-container">
-          <img class="fighter" id="alien" src="./assets/alien.png" alt="alien image">
-          <img class="fighter" id="paper" src="./assets/paper.png" alt="paper image">
-          <img class="fighter" id="scissors"  src="./assets/scissors.png" alt="scissors image">
-          <img class="fighter" id="lizard"  src="./assets/lizard.png" alt="lizard image">
-          <img class="fighter" id="rock"  src="./assets/rock.png" alt="rock image">
-        </article>`
+            `<article class="choices-container">
+            <img class="fighter" id="alien" src="./assets/alien.png" alt="alien image">
+            <img class="fighter" id="paper" src="./assets/paper.png" alt="paper image">
+            <img class="fighter" id="scissors"  src="./assets/scissors.png" alt="scissors image">
+            <img class="fighter" id="lizard"  src="./assets/lizard.png" alt="lizard image">
+            <img class="fighter" id="rock"  src="./assets/rock.png" alt="rock image">
+            </article>`
     }
 
     if(e.target.parentElement.id === 'vanilla'){

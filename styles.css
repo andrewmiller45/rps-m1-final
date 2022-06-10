@@ -44,7 +44,6 @@ button{
 .player-section{
     width: 25vw;
     background-color: #11698E;
-    opacity: 80%; 
     text-align: center;
     border: 5px solid #E7D9EA;
 }
@@ -53,7 +52,6 @@ button{
     width: 75vw;
     text-align: center;
     background-color: #19456B;
-    opacity: 80%;
     border: 5px solid #16C79A;
 }
 
