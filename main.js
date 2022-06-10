@@ -11,6 +11,7 @@ var resultView = document.getElementById('resultMsg')
 var choiceHeader = document.getElementById('gameChoicePrompt')
 var showdown = document.querySelector('.showdown')
 var battleView = document.getElementById('battleView')
+var actionHeader = document.getElementById('actionEncourage')
 
 gameChoiceContainer.addEventListener('click', selectGamemode)
 changeGameButton.addEventListener('click', returnToGameSelect)
@@ -27,6 +28,7 @@ function show(element){
 function selectGamemode (e){
     if(e.target.parentElement.id === 'spicy'){
         hide(gameChoiceContainer)
+        show(actionHeader)
         show(changeGameButton)
         hide(choiceHeader)
         newGame.gameMode = 'spicy'
@@ -42,6 +44,7 @@ function selectGamemode (e){
 
     if(e.target.parentElement.id === 'vanilla'){
         hide(gameChoiceContainer)
+        show(actionHeader)
         show(changeGameButton)
         hide(choiceHeader)
         newGame.gameMode = 'vanilla'
@@ -58,6 +61,7 @@ function returnToGameSelect(){
     show(gameChoiceContainer)
     hide(changeGameButton)
     show(choiceHeader)
+    hide(actionHeader)
     fighterIconsView.innerHTML = "" 
 }
 
@@ -67,7 +71,7 @@ function chooseFighter(e){
     updateWinsView()
     hide(fighterIconsView)
     displayPlayerChoices()
-    setTimeout(resetGame, 3000)
+    setTimeout(resetGame, 2000)
 }
 
 function resetGame(){
