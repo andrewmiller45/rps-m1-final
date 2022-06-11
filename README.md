@@ -21,9 +21,9 @@
   - CSS
 
 ## Illustrations
-  ![Home Screen]()
-  ![Gameplay]()
-  ![Results]()
+  ![Home Screen](https://github.com/andrewmiller45/rps-m1-final/blob/main/assets/openscreen.png)
+  ![Gameplay](https://github.com/andrewmiller45/rps-m1-final/blob/main/assets/gameplay.png)
+  ![Results](https://github.com/andrewmiller45/rps-m1-final/blob/main/assets/result.png)
 ## Features
 - Choose your game mode between vanilla or spicy mode.
 - See the computer's choice in-game.
