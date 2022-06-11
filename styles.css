@@ -1,9 +1,7 @@
 * {
-    /* border: 1px solid red; */
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
-    color: #16C79A;
 }
 
 body {
@@ -24,6 +22,11 @@ h1{
 h2{
     font-size: 45px;
     margin: 12px;
+    color: #16C79A;
+}
+
+h3{
+    color: black;
 }
 
 p{
@@ -31,7 +34,7 @@ p{
 }
 
 button{
-    background-color: #E7D9EA;
+    background-color: #16C79A;
     color: black;
     margin: 25px;
     height: 85px;
@@ -86,8 +89,15 @@ button{
     display: none;
 }
 
+button:disabled{
+    background-color: slategray;
+    border: 5px solid slategray
+}
+
 #spicy, #vanilla{
-    margin: 10px
+    margin: 10px;
+    background-color: #16C79A;
+    color: black;
 }
 
 #fighter {

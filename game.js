@@ -31,4 +31,4 @@ class Game {
                 this.winMsg = `It's a draw!`
                 return console.log(this.playerTwoChoice, 'draw')
             }
-        }
+}

@@ -1,5 +1,4 @@
 var newGame = new Game()
-
 var vanillaButton = document.getElementById('vanilla')
 var spicyButton = document.getElementById('spicy')
 var changeGameButton = document.getElementById('changeGame')
