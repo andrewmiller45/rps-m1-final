@@ -21,7 +21,9 @@
   - CSS
 
 ## Illustrations
-  
+  ![Home Screen]()
+  ![Gameplay]()
+  ![Results]()
 ## Features
 - Choose your game mode between vanilla or spicy mode.
 - See the computer's choice in-game.
