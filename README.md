@@ -21,7 +21,7 @@
   - CSS
 
 ## Illustrations
-  ![Home Screen]((https://github.com/andrewmiller45/rps-m1-final/blob/main/assets/openscreen.png))
+  ![Home Screen](https://github.com/andrewmiller45/rps-m1-final/blob/main/assets/openscreen.png)
   ![Gameplay](https://github.com/andrewmiller45/rps-m1-final/blob/main/assets/gameplay.png)
   ![Results](https://github.com/andrewmiller45/rps-m1-final/blob/main/assets/result.png)
 ## Features
