@@ -43,7 +43,7 @@ Visit my published RPS game! [here](https://andrewmiller45.github.io/rps-m1-fina
 ## Sources
   - [MDN](http://developer.mozilla.org/en-US/)
   - [JavaTPoint](https://www.javatpoint.com/how-to-check-a-radio-button-using-javascript)
-  - [YouTube](https://www.youtube.com/)
+  - [YouTube (web dev simplified on .includes especially!)](https://www.youtube.com/)
   - [W3Schools](https://www.w3schools.com/)
 ## Contributors
   - [Andrew Miller](https://github.com/andrewmiller45)
