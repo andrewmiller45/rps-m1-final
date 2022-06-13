@@ -42,6 +42,7 @@ button{
     border: 5px solid black;
     border-radius: 25px;
     font-size: 21px;
+    cursor: pointer;
 }
 
 .player-section{
@@ -66,6 +67,7 @@ button{
     padding: 8px;
     width: 250px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .fighter{
@@ -91,7 +93,8 @@ button{
 
 button:disabled{
     background-color: slategray;
-    border: 5px solid slategray
+    border: 5px solid slategray;
+    cursor: not-allowed;
 }
 
 #spicy, #vanilla{
@@ -103,6 +106,7 @@ button:disabled{
 #fighter {
     height: 30px;
     width: 30px; 
+    cursor: pointer;
 }
 
 #humanWins, #cpuWins {
