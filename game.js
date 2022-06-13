@@ -20,15 +20,15 @@ class Game {
             if (this.winStates[this.playerTwoChoice].includes(this.playerOneChoice)) {
                 this.playerTwo.increaseWins()
                 this.winMsg = `Computer Wins!`
-                return console.log(this.playerTwoChoice, 'computer wins')
+                return 
             }
             else if(this.winStates[playerOneChoice].includes(this.playerTwoChoice)){
                 this.playerOne.increaseWins()
                 this.winMsg = `Nice! You win!`
-                return console.log(this.playerTwoChoice, 'player wins')
+                return 
             }
             else 
                 this.winMsg = `It's a draw!`
-                return console.log(this.playerTwoChoice, 'draw')
+                return 
             }
 }

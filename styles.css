@@ -45,6 +45,12 @@ button{
     cursor: pointer;
 }
 
+button:disabled{
+    background-color: slategray;
+    border: 5px solid slategray;
+    cursor: not-allowed;
+}
+
 .player-section{
     width: 25vw;
     background-color: #11698E;
@@ -91,12 +97,6 @@ button{
     display: none;
 }
 
-button:disabled{
-    background-color: slategray;
-    border: 5px solid slategray;
-    cursor: not-allowed;
-}
-
 #spicy, #vanilla{
     margin: 10px;
     background-color: #16C79A;
@@ -106,7 +106,6 @@ button:disabled{
 #fighter {
     height: 30px;
     width: 30px; 
-    cursor: pointer;
 }
 
 #humanWins, #cpuWins {
@@ -126,3 +125,4 @@ button:disabled{
     justify-items: center;
 	grid-template-columns: 1fr 1fr;
 }
+
